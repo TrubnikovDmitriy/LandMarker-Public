@@ -21,7 +21,7 @@
 <body>
 
   <h1>Privacy Policy for Land Marker</h1>
-  <p class="meta">Effective date: September 25, 2026</p>
+  <p class="meta">Effective date: October 2, 2026</p>
 
   <p>This Privacy Policy describes how the Android application <strong>Land Marker</strong>
     (package name <code>dv.trubnikov.landmarker</code>, the “App”), developed by Dmitriy Trubnikov
@@ -47,8 +47,10 @@
   <h3>Location (precise and approximate)</h3>
   <p>With your permission, the App uses your device's location to show the distance and direction to landmarks
     and to check that you are close to a landmark. Location is requested only while the relevant screen of the App
-    is open (the App does not use location in the background). Your location is used in memory only; it is not
-    stored as a history and is never transmitted anywhere by the App.</p>
+    is open (the App does not use location in the background). Your live location while searching for landmarks is
+    used in memory only and is not stored as a location history. If you create your own landmark, the coordinates
+    of that landmark are saved locally on your device and will be included if you choose to export and share that
+    landmark set with others.</p>
   <p>The App obtains location through the Fused Location Provider of <strong>Google Play services</strong>, which is
     part of your device's operating environment. Google's handling of location data is governed by the
     <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, not by this policy.</p>
@@ -57,7 +59,8 @@
   <p>With your permission, the App uses the camera so you can photograph landmarks. Photos are compared with the
     reference photo using a machine-learning model that runs <strong>entirely on your device</strong> (TensorFlow Lite).
     Photos you take are saved in the App's private storage on your device so you can see the landmarks you have found.
-    They are not uploaded, shared, or accessible to other apps.</p>
+    Photos are stored in the App's private storage on your device and are not accessible to other apps, unless you
+    explicitly choose to export and share a landmark set that you created.</p>
 
   <h3>Motion sensors</h3>
   <p>The App reads the device's orientation sensor to show which direction you are facing (compass). This data
@@ -70,12 +73,15 @@
   <h2>Sharing of data</h2>
   <p>The Developer does not receive any of your data and therefore does not share it with anyone.
     The App contains no third-party advertising, analytics, or tracking services.</p>
+  <p><strong>User-initiated sharing (Export &amp; Import):</strong> The App allows you to export landmark sets
+    (containing reference photos, their geographic coordinates, and set title and description) as a file and share it
+    with other users using Android's standard system sharing menu (for example, via Quick Share or Bluetooth), as well
+    as import landmark set files created by others. This sharing happens solely at your direction; the Developer has
+    no access to the exported or imported files.</p>
 
   <h2>Device backups</h2>
-  <p>If you have enabled Android backup on your device, Android may include the App's data (for example, your
-    progress and photos) in the backup that is stored in your Google account. This backup is managed by Android and
-    Google under your account settings; the Developer has no access to it. You can turn backup off in your device
-    settings.</p>
+  <p>Android cloud backups and automatic device-to-device data transfers are disabled for the App, so your photos
+    and progress remain strictly on your device unless you explicitly export a landmark set.</p>
 
   <h2>Data retention and deletion</h2>
   <p>All data remains on your device until you delete it. You can delete all App data at any time by clearing the
